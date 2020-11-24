@@ -99,7 +99,7 @@ public class RingDetect extends LinearOpMode {
     while (opModeIsActive()) {
       // Don't burn an insane amount of CPU cycles in this sample because
       // we're not doing anything else
-      sleep(20);
+      sleep(100);
 
       // Report detected rectangles to telemetry. There should be only 1.
       // Todo: check this assertion.
